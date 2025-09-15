@@ -30,6 +30,7 @@
   &:hover,
   &:focus {
     color: var(--color-dark-2);
+    border-color: var(--color-dark-2);
   }
   
   &:focus {
@@ -37,7 +38,7 @@
     outline: none;
   }
 
-  &[type="seacrh"] {
+  &[type="search"] {
     &:placeholder-shown {
       padding-right: calc(
         var(--fieldInputPaddingX) * 2 + var(--fieldSeacrhInputIconSize)
